@@ -88,7 +88,7 @@
     justify-content: space-between;
     align-items: center;
     gap: 15px;
-   margin-bottom: 60px;
+    margin-bottom: 60px;
    
 }
 
@@ -147,7 +147,7 @@
   font-size: 14px;
   font-weight: 400;
   color: #4E4E4E;
-    margin-bottom: 10px;
+ margin-bottom: 10px;
 }
 .shoes-card h4, .backpack-card h4 {
   font-size: 22px;
@@ -213,7 +213,7 @@
     border: none;
     font-size: 18px;
     font-weight: 500;
-background: linear-gradient(to right, #FF589B, #FF136F);
+  background: linear-gradient(to right, #FF589B, #FF136F);
     color: #FFFFFF;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
@@ -272,6 +272,35 @@ background: linear-gradient(to right, #FF589B, #FF136F);
 }
 /* tablet device 641-992 */
 @media  screen and (max-width: 992px){
+
+.hero-container {
+    flex-direction: column;
+    /* gap: 5px; */
+}
+.hero-content {
+    text-align: center;
+}
+.hero-content h1 {
+   margin-top: 20px;
+    
+}
+.shoes, .backpack {
+    flex-direction: column;
+}
+.shoes-card, .backpack-card{
+    width: 50%;
+}
+
+.shoes-container h1, .backpack-container h1, .categories-container h1 {
+    text-align: center;
+
+}
+.footer-content {
+    
+    padding: 60px 100px;
+}
+
+
 
 
 }
