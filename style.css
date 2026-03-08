@@ -87,8 +87,9 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    gap: 15px;
+    gap: 25px;
     margin-bottom: 60px;
+     
    
 }
 
@@ -104,20 +105,24 @@
 .one, .two, .three {
     background-color: #FF9C35;
     padding: 5px 40px;
-    font-size: 23px;
+    font-size: 22px;
     /* font-weight: 300; */
     color: #FFFFFF;
     border-radius: 8px;  
-    gap: 50px;
-}
+    gap: 40px;
+    overflow: hidden;
+  
+   
+  } 
+
 .two {
     background-color: #FF136F;
-    gap: 60px;
+    gap: 55px;
 }
 .three {
     background-color: #3F07F8;
-    gap: 8px;
-    padding: 5px 25px;
+    gap: 3px;
+    padding: 5px 15px;
 }
 /* shoes & backpack related design */
 
@@ -184,7 +189,7 @@
     padding: 140px 240px;
 }
 .footer-content h1 {
-    font-size: 30px;
+    font-size: 32px;
     font-weight: 600;
     color: #1F1F1F;
   
@@ -213,7 +218,7 @@
     border: none;
     font-size: 18px;
     font-weight: 500;
-  background: linear-gradient(to right, #FF589B, #FF136F);
+   background: linear-gradient(to right, #FF589B, #FF136F);
     color: #FFFFFF;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
@@ -230,17 +235,23 @@
 .hero-content h4 {
     font-size: 25px;
 }
-  .categories {
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 15px;
-  }
+
+  .one, .two, .three {
+    padding: 5px 15px;
+    font-size: 20px;
+    overflow: hidden;
+   
+  } 
+    
+    
+   
+  
 .shoes, .backpack{
     justify-content: space-between;
 }
 
 .shoes-card, .backpack-card{
-    width: 30%;
+    width: 40%;
 }
  
  .shoes-card img, .backpack-card img {
@@ -252,18 +263,16 @@
   
   
 }
+
 .footer-content input {
     padding: 15px;
    font-size: 15px;
-
 
 }
 
 .footer-content button {
    padding: 15px;
    font-size: 16px;
-   
-
 }
 
    
@@ -271,19 +280,40 @@
 
 }
 /* tablet device 641-992 */
-@media  screen and (max-width: 992px){
+@media  screen and (max-width: 992px) {
 
 .hero-container {
     flex-direction: column;
-    /* gap: 5px; */
+    
 }
 .hero-content {
     text-align: center;
 }
 .hero-content h1 {
    margin-top: 20px;
-    
+  
 }
+
+
+.categories{
+    /* display: flex; */
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.categories .one,
+.categories .two,
+.categories .three{
+    width: 48%;
+    justify-content: center;
+    text-align: center;
+}
+.three {
+    padding-right: 5px;
+}
+
+
 .shoes, .backpack {
     flex-direction: column;
 }
@@ -293,21 +323,62 @@
 
 .shoes-container h1, .backpack-container h1, .categories-container h1 {
     text-align: center;
-
 }
 .footer-content {
-    
-    padding: 60px 100px;
+      padding: 60px 100px;
 }
 
-
-
-
 }
+
 /* mobile device  */
 @media  screen and (max-width: 640px){
+    .btn-primary {
+        margin-bottom: 10px;
+    }
+.hero-img img {
+  width: 210px;
+}
+.categories{
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.categories .one,
+.categories .two,
+.categories .three{
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
 
 
+.one, .two {
+     padding: 5px 25px; 
+      
+}
+.three {
+    padding: 5px 10px;
+     
+}
+.shoes-card, .backpack-card{
+    width: 85%;
+   
+}
+.footer-content h1 {
+    font-size: 20px;
+}
+
+.footer-content {
+      padding: 40px 15px;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+     
+}
+.footer-content button, .footer-content input {
+    border-radius: 5px;
+}
 }
 
     
