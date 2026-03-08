@@ -21,7 +21,8 @@
 ### 1. **Header Section**
 
 * বাম পাশে logo
-* ডান পাশে hamburger menu icon
+* ডান পাশে
+icon
 * যথাযথ ভাবে padding, margin ব্যবহার করবে। 
 
 ### 2. **Hero Section – Featured Product**
