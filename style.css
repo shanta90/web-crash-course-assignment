@@ -4,6 +4,23 @@
     box-sizing: border-box;
 }
 
+/* common class */
 .poppins-font {
   font-family: "Poppins", sans-serif;
 }
+
+.container {
+    width: 78%;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+/* navbar related design */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
