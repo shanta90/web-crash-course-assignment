@@ -115,7 +115,7 @@
     background-color: #3F07F8;
     gap: 8px;
 }
-/* shoes related design */
+/* shoes & backpack related design */
 
 .shoes-card , .backpack-card {
     border: 1px solid #4e4e4e69;
@@ -169,4 +169,50 @@
     align-items: center;
 }
 
+/* footer related design */
+.footer {
+    background-color: #FFF2F1;
+    margin-top: 15px;
+}
+.footer-content {
+    text-align: center;
+    padding: 140px 240px;
+}
+.footer-content h1 {
+    font-size: 30px;
+    font-weight: 600;
+    color: #1F1F1F;
+  
+}
+.footer-content p {
+    font-size: 15px;
+    font-weight: 400;
+    color: #707070;
+    margin-bottom: 5px;
+}
+ 
+.footer-content input {
+    padding: 15px 50px;
+    border: none;
+    font-size: 18px;
+    font-weight: 400;
+    color: #cccccce1;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+
+}
+
+ 
+.footer-content button {
+    padding: 15px 50px;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+background: linear-gradient(to right, #FF589B, #FF136F);
+    color: #FFFFFF;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+
+}
 
